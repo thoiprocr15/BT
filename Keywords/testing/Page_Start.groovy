@@ -20,7 +20,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
 
-public class start {
+public class Page_Start {
 
 	@Keyword
 	def access() {
@@ -32,11 +32,5 @@ public class start {
 
 		'Navigate to DemoQA Page'
 		WebUI.navigateToUrl(GlobalVariable.URL)
-
-		'Click Form'
-		WebUI.click(findTestObject('demoQA/li_Form'))
-
-		'Click Practice Form'
-		WebUI.click(findTestObject('demoQA/li_Pratice_Form'))
 	}
 }

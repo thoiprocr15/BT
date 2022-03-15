@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="demoQA_testSuite" time="41.186" tests="3" failures="0" errors="3">
+   <testsuite name="demoQA_testSuite" tests="3" failures="0" errors="3" time="41.186" skipped="0" timestamp="2022-03-14 16:08:18" hostname="nxthoi - nxthoi.tma.com.vn" id="Test Suites/demoQA_testSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\nxthoi\\Desktop\\Project_Katalon\\demoQA\\Reports\\20220314_160807\\demoQA_testSuite\\20220314_160807"/>
+         <property name="logFiles" value="C:\\Users\\nxthoi\\Desktop\\Project_Katalon\\demoQA\\Reports\\20220314_160807\\demoQA_testSuite\\20220314_160807\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nxthoi - nxthoi.tma.com.vn"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 99.0.4844.51"/>
+         <property name="hostAddress" value="192.168.197.166"/>
+         <property name="sessionId" value="e9ea5978230c01011702037139c4c8be"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/demoQA" time="13.198" classname="Test Cases/demoQA" status="ERROR">
+         <error type="ERROR" message="Test Cases/demoQA FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: state_value for class: Script1646797108369
+	at demoQA.run(demoQA:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647248887562.run(TempTestSuite1647248887562.groovy:36)
+"/>
+         <system-out><![CDATA[2022-03-14 16:08:18 - [TEST_CASE][ERROR] - Test Cases/demoQA: Test Cases/demoQA FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: state_value for class: Script1646797108369
+	at demoQA.run(demoQA:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647248887562.run(TempTestSuite1647248887562.groovy:36)
+
+
+2022-03-14 16:08:18 - [TEST_STEP][PASSED] - testing.Page_Start.access(): testing.Page_Start.access is PASSED
+
+2022-03-14 16:08:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-14 16:08:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-14 16:08:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-14 16:08:21 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-14 16:08:29 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+2022-03-14 16:08:29 - [MESSAGE][PASSED] - testing.Page_Start.access is PASSED
+
+2022-03-14 16:08:29 - [TEST_STEP][PASSED] - testing.Page_fillForm.click_Form(): testing.Page_fillForm.click_Form is PASSED
+
+2022-03-14 16:08:31 - [MESSAGE][PASSED] - Object: 'Object Repository/demoQA/li_Form' is clicked on
+
+2022-03-14 16:08:31 - [MESSAGE][PASSED] - Object: 'Object Repository/demoQA/li_Pratice_Form' is clicked on
+
+2022-03-14 16:08:31 - [MESSAGE][PASSED] - testing.Page_fillForm.click_Form is PASSED
+
+2022-03-14 16:08:31 - [TEST_STEP][ERROR] - testing.Page_fillForm.fillForm(firstName, lastName, email, mobile, subject, upload, address, state, state_value, city, city_value): Test Cases/demoQA FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: state_value for class: Script1646797108369
+	at demoQA.run(demoQA:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647248887562.run(TempTestSuite1647248887562.groovy:36)
+
+
+2022-03-14 16:08:31 - [MESSAGE][ERROR] - Test Cases/demoQA FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: state_value for class: Script1646797108369
+	at demoQA.run(demoQA:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647248887562.run(TempTestSuite1647248887562.groovy:36)]]></system-out>
+         <system-err><![CDATA[2022-03-14 16:08:18 - [TEST_CASE][ERROR] - Test Cases/demoQA: Test Cases/demoQA FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: state_value for class: Script1646797108369
+	at demoQA.run(demoQA:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647248887562.run(TempTestSuite1647248887562.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/demoQA" time="14.524" classname="Test Cases/demoQA" status="ERROR">
+         <error type="ERROR" message="Test Cases/demoQA FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: state_value for class: Script1646797108369
+	at demoQA.run(demoQA:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647248887562.run(TempTestSuite1647248887562.groovy:36)
+"/>
+         <system-out><![CDATA[2022-03-14 16:08:31 - [TEST_CASE][ERROR] - Test Cases/demoQA: Test Cases/demoQA FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: state_value for class: Script1646797108369
+	at demoQA.run(demoQA:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647248887562.run(TempTestSuite1647248887562.groovy:36)
+
+
+2022-03-14 16:08:31 - [TEST_STEP][PASSED] - testing.Page_Start.access(): testing.Page_Start.access is PASSED
+
+2022-03-14 16:08:31 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-03-14 16:08:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-14 16:08:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-14 16:08:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-14 16:08:34 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-14 16:08:44 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+2022-03-14 16:08:44 - [MESSAGE][PASSED] - testing.Page_Start.access is PASSED
+
+2022-03-14 16:08:44 - [TEST_STEP][PASSED] - testing.Page_fillForm.click_Form(): testing.Page_fillForm.click_Form is PASSED
+
+2022-03-14 16:08:45 - [MESSAGE][PASSED] - Object: 'Object Repository/demoQA/li_Form' is clicked on
+
+2022-03-14 16:08:46 - [MESSAGE][PASSED] - Object: 'Object Repository/demoQA/li_Pratice_Form' is clicked on
+
+2022-03-14 16:08:46 - [MESSAGE][PASSED] - testing.Page_fillForm.click_Form is PASSED
+
+2022-03-14 16:08:46 - [TEST_STEP][ERROR] - testing.Page_fillForm.fillForm(firstName, lastName, email, mobile, subject, upload, address, state, state_value, city, city_value): Test Cases/demoQA FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: state_value for class: Script1646797108369
+	at demoQA.run(demoQA:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647248887562.run(TempTestSuite1647248887562.groovy:36)
+
+
+2022-03-14 16:08:46 - [MESSAGE][ERROR] - Test Cases/demoQA FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: state_value for class: Script1646797108369
+	at demoQA.run(demoQA:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647248887562.run(TempTestSuite1647248887562.groovy:36)]]></system-out>
+         <system-err><![CDATA[2022-03-14 16:08:31 - [TEST_CASE][ERROR] - Test Cases/demoQA: Test Cases/demoQA FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: state_value for class: Script1646797108369
+	at demoQA.run(demoQA:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647248887562.run(TempTestSuite1647248887562.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/demoQA" time="12.617" classname="Test Cases/demoQA" status="ERROR">
+         <error type="ERROR" message="Test Cases/demoQA FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: state_value for class: Script1646797108369
+	at demoQA.run(demoQA:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647248887562.run(TempTestSuite1647248887562.groovy:36)
+"/>
+         <system-out><![CDATA[2022-03-14 16:08:46 - [TEST_CASE][ERROR] - Test Cases/demoQA: Test Cases/demoQA FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: state_value for class: Script1646797108369
+	at demoQA.run(demoQA:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647248887562.run(TempTestSuite1647248887562.groovy:36)
+
+
+2022-03-14 16:08:46 - [TEST_STEP][PASSED] - testing.Page_Start.access(): testing.Page_Start.access is PASSED
+
+2022-03-14 16:08:46 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-03-14 16:08:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-14 16:08:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-14 16:08:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-14 16:08:48 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-14 16:08:57 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+2022-03-14 16:08:57 - [MESSAGE][PASSED] - testing.Page_Start.access is PASSED
+
+2022-03-14 16:08:57 - [TEST_STEP][PASSED] - testing.Page_fillForm.click_Form(): testing.Page_fillForm.click_Form is PASSED
+
+2022-03-14 16:08:58 - [MESSAGE][PASSED] - Object: 'Object Repository/demoQA/li_Form' is clicked on
+
+2022-03-14 16:08:59 - [MESSAGE][PASSED] - Object: 'Object Repository/demoQA/li_Pratice_Form' is clicked on
+
+2022-03-14 16:08:59 - [MESSAGE][PASSED] - testing.Page_fillForm.click_Form is PASSED
+
+2022-03-14 16:08:59 - [TEST_STEP][ERROR] - testing.Page_fillForm.fillForm(firstName, lastName, email, mobile, subject, upload, address, state, state_value, city, city_value): Test Cases/demoQA FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: state_value for class: Script1646797108369
+	at demoQA.run(demoQA:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647248887562.run(TempTestSuite1647248887562.groovy:36)
+
+
+2022-03-14 16:08:59 - [MESSAGE][ERROR] - Test Cases/demoQA FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: state_value for class: Script1646797108369
+	at demoQA.run(demoQA:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647248887562.run(TempTestSuite1647248887562.groovy:36)]]></system-out>
+         <system-err><![CDATA[2022-03-14 16:08:46 - [TEST_CASE][ERROR] - Test Cases/demoQA: Test Cases/demoQA FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: state_value for class: Script1646797108369
+	at demoQA.run(demoQA:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647248887562.run(TempTestSuite1647248887562.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-14 16:08:18 - [TEST_SUITE][ERROR] - demoQA_testSuite: Test Cases/demoQA FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: state_value for class: Script1646797108369
+	at demoQA.run(demoQA:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647248887562.run(TempTestSuite1647248887562.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-03-14 16:08:18 - [TEST_SUITE][ERROR] - demoQA_testSuite: Test Cases/demoQA FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: state_value for class: Script1646797108369
+	at demoQA.run(demoQA:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647248887562.run(TempTestSuite1647248887562.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

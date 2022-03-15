@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="demoQA_testSuite" time="59.904" tests="3" failures="0" errors="3">
+   <testsuite name="demoQA_testSuite" tests="3" failures="0" errors="3" time="59.904" skipped="0" timestamp="2022-03-15 14:17:34" hostname="nxthoi - nxthoi.tma.com.vn" id="Test Suites/demoQA_testSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\nxthoi\\Desktop\\Project_Katalon\\demoQA\\Reports\\20220315_141724\\demoQA_testSuite\\20220315_141724"/>
+         <property name="logFiles" value="C:\\Users\\nxthoi\\Desktop\\Project_Katalon\\demoQA\\Reports\\20220315_141724\\demoQA_testSuite\\20220315_141724\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nxthoi - nxthoi.tma.com.vn"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 99.0.4844.51"/>
+         <property name="hostAddress" value="192.168.197.166"/>
+         <property name="sessionId" value="d9ef1c131f47b1eddbe678115ae0086f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/demoQA" time="21.732" classname="Test Cases/demoQA" status="ERROR">
+         <error type="ERROR" message="Test Cases/demoQA FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer, java.lang.Boolean) values: [TestObject - 'Object Repository/demoQA/select_DOB_month', 57, ...]
+Possible solutions: selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)
+	at testing.Page_Form.invokeMethod(Page_Form.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at demoQA.run(demoQA:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647328644194.run(TempTestSuite1647328644194.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer, java.lang.Boolean) values: [TestObject - 'Object Repository/demoQA/select_DOB_month', 57, ...]
+Possible solutions: selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)
+	at testing.Page_Form.enterValue(Page_Form.groovy:75)
+	... 16 more
+"/>
+         <system-out><![CDATA[2022-03-15 14:17:34 - [TEST_CASE][ERROR] - Test Cases/demoQA: Test Cases/demoQA FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer, java.lang.Boolean) values: [TestObject - 'Object Repository/demoQA/select_DOB_month', 57, ...]
+Possible solutions: selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)
+	at testing.Page_Form.invokeMethod(Page_Form.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at demoQA.run(demoQA:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647328644194.run(TempTestSuite1647328644194.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer, java.lang.Boolean) values: [TestObject - 'Object Repository/demoQA/select_DOB_month', 57, ...]
+Possible solutions: selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)
+	at testing.Page_Form.enterValue(Page_Form.groovy:75)
+	... 16 more
+
+
+2022-03-15 14:17:35 - [TEST_STEP][PASSED] - testing.Page_Start.access(): testing.Page_Start.access is PASSED
+
+2022-03-15 14:17:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-15 14:17:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-15 14:17:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-15 14:17:37 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-15 14:17:44 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+2022-03-15 14:17:44 - [MESSAGE][PASSED] - testing.Page_Start.access is PASSED
+
+2022-03-15 14:17:44 - [TEST_STEP][PASSED] - testing.Page_Form.click_Form(): testing.Page_Form.click_Form is PASSED
+
+2022-03-15 14:17:45 - [MESSAGE][PASSED] - Object: 'Object Repository/demoQA/li_Form' is clicked on
+
+2022-03-15 14:17:46 - [MESSAGE][PASSED] - Object: 'Object Repository/demoQA/li_Pratice_Form' is clicked on
+
+2022-03-15 14:17:46 - [MESSAGE][PASSED] - testing.Page_Form.click_Form is PASSED
+
+2022-03-15 14:17:46 - [TEST_STEP][ERROR] - testing.Page_Form.enterValue(findTestData("demoQA_internal").getValue(1, 1), lastName, email, gender, mobile, year_DOB, month_DOB, subject, hobbies, upload, address, state, city): Test Cases/demoQA FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer, java.lang.Boolean) values: [TestObject - 'Object Repository/demoQA/select_DOB_month', 57, ...]
+Possible solutions: selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at demoQA.run(demoQA:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647328644194.run(TempTestSuite1647328644194.groovy:36)
+Caused by: org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer, java.lang.Boolean) values: [TestObject - 'Object Repository/demoQA/select_DOB_month', 57, ...]
+Possible solutions: selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)
+	at testing.Page_Form.invokeMethod(Page_Form.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Script1646797108369.run(Script1646797108369.groovy:24)
+	... 13 more
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer, java.lang.Boolean) values: [TestObject - 'Object Repository/demoQA/select_DOB_month', 57, ...]
+Possible solutions: selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)
+	at testing.Page_Form.enterValue(Page_Form.groovy:75)
+	at testing.Page_Form.invokeMethod(Page_Form.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at demoQA.run(demoQA:24)
+	... 13 more
+
+
+2022-03-15 14:17:47 - [MESSAGE][PASSED] - Text 'Champagrap' is set on object 'Object Repository/demoQA/input'
+
+2022-03-15 14:17:48 - [MESSAGE][PASSED] - Text 'Thapton' is set on object 'Object Repository/demoQA/input'
+
+2022-03-15 14:17:49 - [MESSAGE][PASSED] - Text 'thapton@gmail.com' is set on object 'Object Repository/demoQA/input'
+
+2022-03-15 14:17:49 - [MESSAGE][PASSED] - Object 'Object Repository/demoQA/label_gender' is checked
+
+2022-03-15 14:17:50 - [MESSAGE][PASSED] - Text '0868346796' is set on object 'Object Repository/demoQA/input'
+
+2022-03-15 14:17:50 - [MESSAGE][PASSED] - Object: 'Object Repository/demoQA/input' is clicked on
+
+2022-03-15 14:17:56 - [MESSAGE][PASSED] - All options with value '1999' are selected in object 'Object Repository/demoQA/select_DOB_year'  using regular expression
+
+2022-03-15 14:17:56 - [MESSAGE][ERROR] - groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer, java.lang.Boolean) values: [TestObject - 'Object Repository/demoQA/select_DOB_month', 57, ...]
+Possible solutions: selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)
+
+2022-03-15 14:17:56 - [MESSAGE][ERROR] - Test Cases/demoQA FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer, java.lang.Boolean) values: [TestObject - 'Object Repository/demoQA/select_DOB_month', 57, ...]
+Possible solutions: selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at demoQA.run(demoQA:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647328644194.run(TempTestSuite1647328644194.groovy:36)
+Caused by: org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer, java.lang.Boolean) values: [TestObject - 'Object Repository/demoQA/select_DOB_month', 57, ...]
+Possible solutions: selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)
+	at testing.Page_Form.invokeMethod(Page_Form.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Script1646797108369.run(Script1646797108369.groovy:24)
+	... 13 more
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer, java.lang.Boolean) values: [TestObject - 'Object Repository/demoQA/select_DOB_month', 57, ...]
+Possible solutions: selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)
+	at testing.Page_Form.enterValue(Page_Form.groovy:75)
+	at testing.Page_Form.invokeMethod(Page_Form.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at demoQA.run(demoQA:24)
+	... 13 more]]></system-out>
+         <system-err><![CDATA[2022-03-15 14:17:34 - [TEST_CASE][ERROR] - Test Cases/demoQA: Test Cases/demoQA FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer, java.lang.Boolean) values: [TestObject - 'Object Repository/demoQA/select_DOB_month', 57, ...]
+Possible solutions: selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)
+	at testing.Page_Form.invokeMethod(Page_Form.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at demoQA.run(demoQA:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647328644194.run(TempTestSuite1647328644194.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer, java.lang.Boolean) values: [TestObject - 'Object Repository/demoQA/select_DOB_month', 57, ...]
+Possible solutions: selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)
+	at testing.Page_Form.enterValue(Page_Form.groovy:75)
+	... 16 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/demoQA" time="22.191" classname="Test Cases/demoQA" status="ERROR">
+         <error type="ERROR" message="Test Cases/demoQA FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer, java.lang.Boolean) values: [TestObject - 'Object Repository/demoQA/select_DOB_month', 49, ...]
+Possible solutions: selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)
+	at testing.Page_Form.invokeMethod(Page_Form.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at demoQA.run(demoQA:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647328644194.run(TempTestSuite1647328644194.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer, java.lang.Boolean) values: [TestObject - 'Object Repository/demoQA/select_DOB_month', 49, ...]
+Possible solutions: selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)
+	at testing.Page_Form.enterValue(Page_Form.groovy:75)
+	... 16 more
+"/>
+         <system-out><![CDATA[2022-03-15 14:17:56 - [TEST_CASE][ERROR] - Test Cases/demoQA: Test Cases/demoQA FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer, java.lang.Boolean) values: [TestObject - 'Object Repository/demoQA/select_DOB_month', 49, ...]
+Possible solutions: selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)
+	at testing.Page_Form.invokeMethod(Page_Form.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at demoQA.run(demoQA:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647328644194.run(TempTestSuite1647328644194.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer, java.lang.Boolean) values: [TestObject - 'Object Repository/demoQA/select_DOB_month', 49, ...]
+Possible solutions: selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)
+	at testing.Page_Form.enterValue(Page_Form.groovy:75)
+	... 16 more
+
+
+2022-03-15 14:17:56 - [TEST_STEP][PASSED] - testing.Page_Start.access(): testing.Page_Start.access is PASSED
+
+2022-03-15 14:17:56 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-03-15 14:17:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-15 14:17:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-15 14:17:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-15 14:17:58 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-15 14:18:07 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+2022-03-15 14:18:07 - [MESSAGE][PASSED] - testing.Page_Start.access is PASSED
+
+2022-03-15 14:18:07 - [TEST_STEP][PASSED] - testing.Page_Form.click_Form(): testing.Page_Form.click_Form is PASSED
+
+2022-03-15 14:18:08 - [MESSAGE][PASSED] - Object: 'Object Repository/demoQA/li_Form' is clicked on
+
+2022-03-15 14:18:09 - [MESSAGE][PASSED] - Object: 'Object Repository/demoQA/li_Pratice_Form' is clicked on
+
+2022-03-15 14:18:09 - [MESSAGE][PASSED] - testing.Page_Form.click_Form is PASSED
+
+2022-03-15 14:18:09 - [TEST_STEP][ERROR] - testing.Page_Form.enterValue(findTestData("demoQA_internal").getValue(1, 1), lastName, email, gender, mobile, year_DOB, month_DOB, subject, hobbies, upload, address, state, city): Test Cases/demoQA FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer, java.lang.Boolean) values: [TestObject - 'Object Repository/demoQA/select_DOB_month', 49, ...]
+Possible solutions: selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at demoQA.run(demoQA:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647328644194.run(TempTestSuite1647328644194.groovy:36)
+Caused by: org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer, java.lang.Boolean) values: [TestObject - 'Object Repository/demoQA/select_DOB_month', 49, ...]
+Possible solutions: selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)
+	at testing.Page_Form.invokeMethod(Page_Form.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Script1646797108369.run(Script1646797108369.groovy:24)
+	... 13 more
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer, java.lang.Boolean) values: [TestObject - 'Object Repository/demoQA/select_DOB_month', 49, ...]
+Possible solutions: selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)
+	at testing.Page_Form.enterValue(Page_Form.groovy:75)
+	at testing.Page_Form.invokeMethod(Page_Form.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at demoQA.run(demoQA:24)
+	... 13 more
+
+
+2022-03-15 14:18:10 - [MESSAGE][PASSED] - Text 'Champagrap' is set on object 'Object Repository/demoQA/input'
+
+2022-03-15 14:18:11 - [MESSAGE][PASSED] - Text 'Kei' is set on object 'Object Repository/demoQA/input'
+
+2022-03-15 14:18:11 - [MESSAGE][PASSED] - Text 'kei@gmail.com' is set on object 'Object Repository/demoQA/input'
+
+2022-03-15 14:18:12 - [MESSAGE][PASSED] - Object 'Object Repository/demoQA/label_gender' is checked
+
+2022-03-15 14:18:12 - [MESSAGE][PASSED] - Text '0254879652' is set on object 'Object Repository/demoQA/input'
+
+2022-03-15 14:18:13 - [MESSAGE][PASSED] - Object: 'Object Repository/demoQA/input' is clicked on
+
+2022-03-15 14:18:18 - [MESSAGE][PASSED] - All options with value '1995' are selected in object 'Object Repository/demoQA/select_DOB_year'  using regular expression
+
+2022-03-15 14:18:18 - [MESSAGE][ERROR] - groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer, java.lang.Boolean) values: [TestObject - 'Object Repository/demoQA/select_DOB_month', 49, ...]
+Possible solutions: selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)
+
+2022-03-15 14:18:18 - [MESSAGE][ERROR] - Test Cases/demoQA FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer, java.lang.Boolean) values: [TestObject - 'Object Repository/demoQA/select_DOB_month', 49, ...]
+Possible solutions: selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at demoQA.run(demoQA:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647328644194.run(TempTestSuite1647328644194.groovy:36)
+Caused by: org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer, java.lang.Boolean) values: [TestObject - 'Object Repository/demoQA/select_DOB_month', 49, ...]
+Possible solutions: selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)
+	at testing.Page_Form.invokeMethod(Page_Form.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Script1646797108369.run(Script1646797108369.groovy:24)
+	... 13 more
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer, java.lang.Boolean) values: [TestObject - 'Object Repository/demoQA/select_DOB_month', 49, ...]
+Possible solutions: selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)
+	at testing.Page_Form.enterValue(Page_Form.groovy:75)
+	at testing.Page_Form.invokeMethod(Page_Form.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at demoQA.run(demoQA:24)
+	... 13 more]]></system-out>
+         <system-err><![CDATA[2022-03-15 14:17:56 - [TEST_CASE][ERROR] - Test Cases/demoQA: Test Cases/demoQA FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer, java.lang.Boolean) values: [TestObject - 'Object Repository/demoQA/select_DOB_month', 49, ...]
+Possible solutions: selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)
+	at testing.Page_Form.invokeMethod(Page_Form.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at demoQA.run(demoQA:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647328644194.run(TempTestSuite1647328644194.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer, java.lang.Boolean) values: [TestObject - 'Object Repository/demoQA/select_DOB_month', 49, ...]
+Possible solutions: selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)
+	at testing.Page_Form.enterValue(Page_Form.groovy:75)
+	... 16 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/demoQA" time="15.113" classname="Test Cases/demoQA" status="ERROR">
+         <error type="ERROR" message="Test Cases/demoQA FAILED.
+Reason:
+org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object '' with class 'java.lang.String' to class 'java.lang.Integer'
+	at testing.Page_Form.enterValue(Page_Form.groovy:72)
+	at testing.Page_Form.invokeMethod(Page_Form.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at demoQA.run(demoQA:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647328644194.run(TempTestSuite1647328644194.groovy:36)
+"/>
+         <system-out><![CDATA[2022-03-15 14:18:19 - [TEST_CASE][ERROR] - Test Cases/demoQA: Test Cases/demoQA FAILED.
+Reason:
+org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object '' with class 'java.lang.String' to class 'java.lang.Integer'
+	at testing.Page_Form.enterValue(Page_Form.groovy:72)
+	at testing.Page_Form.invokeMethod(Page_Form.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at demoQA.run(demoQA:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647328644194.run(TempTestSuite1647328644194.groovy:36)
+
+
+2022-03-15 14:18:19 - [TEST_STEP][PASSED] - testing.Page_Start.access(): testing.Page_Start.access is PASSED
+
+2022-03-15 14:18:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-03-15 14:18:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-15 14:18:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-15 14:18:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-15 14:18:21 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-15 14:18:28 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+2022-03-15 14:18:28 - [MESSAGE][PASSED] - testing.Page_Start.access is PASSED
+
+2022-03-15 14:18:28 - [TEST_STEP][PASSED] - testing.Page_Form.click_Form(): testing.Page_Form.click_Form is PASSED
+
+2022-03-15 14:18:30 - [MESSAGE][PASSED] - Object: 'Object Repository/demoQA/li_Form' is clicked on
+
+2022-03-15 14:18:30 - [MESSAGE][PASSED] - Object: 'Object Repository/demoQA/li_Pratice_Form' is clicked on
+
+2022-03-15 14:18:30 - [MESSAGE][PASSED] - testing.Page_Form.click_Form is PASSED
+
+2022-03-15 14:18:30 - [TEST_STEP][ERROR] - testing.Page_Form.enterValue(findTestData("demoQA_internal").getValue(1, 1), lastName, email, gender, mobile, year_DOB, month_DOB, subject, hobbies, upload, address, state, city): Test Cases/demoQA FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object '' with class 'java.lang.String' to class 'java.lang.Integer'
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at demoQA.run(demoQA:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647328644194.run(TempTestSuite1647328644194.groovy:36)
+Caused by: org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object '' with class 'java.lang.String' to class 'java.lang.Integer'
+	at testing.Page_Form.enterValue(Page_Form.groovy:72)
+	at testing.Page_Form.invokeMethod(Page_Form.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	... 14 more
+
+
+2022-03-15 14:18:32 - [MESSAGE][PASSED] - Text 'Champagrap' is set on object 'Object Repository/demoQA/input'
+
+2022-03-15 14:18:32 - [MESSAGE][PASSED] - Text 'Taket' is set on object 'Object Repository/demoQA/input'
+
+2022-03-15 14:18:33 - [MESSAGE][PASSED] - Text 'taket@gmail.com' is set on object 'Object Repository/demoQA/input'
+
+2022-03-15 14:18:33 - [MESSAGE][PASSED] - Object 'Object Repository/demoQA/label_gender' is checked
+
+2022-03-15 14:18:34 - [MESSAGE][PASSED] - Text '0123658965' is set on object 'Object Repository/demoQA/input'
+
+2022-03-15 14:18:34 - [MESSAGE][ERROR] - Cannot cast object '' with class 'java.lang.String' to class 'java.lang.Integer'
+
+2022-03-15 14:18:34 - [MESSAGE][ERROR] - Test Cases/demoQA FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object '' with class 'java.lang.String' to class 'java.lang.Integer'
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at demoQA.run(demoQA:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647328644194.run(TempTestSuite1647328644194.groovy:36)
+Caused by: org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object '' with class 'java.lang.String' to class 'java.lang.Integer'
+	at testing.Page_Form.enterValue(Page_Form.groovy:72)
+	at testing.Page_Form.invokeMethod(Page_Form.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	... 14 more]]></system-out>
+         <system-err><![CDATA[2022-03-15 14:18:19 - [TEST_CASE][ERROR] - Test Cases/demoQA: Test Cases/demoQA FAILED.
+Reason:
+org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object '' with class 'java.lang.String' to class 'java.lang.Integer'
+	at testing.Page_Form.enterValue(Page_Form.groovy:72)
+	at testing.Page_Form.invokeMethod(Page_Form.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at demoQA.run(demoQA:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647328644194.run(TempTestSuite1647328644194.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-15 14:17:34 - [TEST_SUITE][ERROR] - demoQA_testSuite: Test Cases/demoQA FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer, java.lang.Boolean) values: [TestObject - 'Object Repository/demoQA/select_DOB_month', 57, ...]
+Possible solutions: selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)
+	at testing.Page_Form.invokeMethod(Page_Form.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at demoQA.run(demoQA:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647328644194.run(TempTestSuite1647328644194.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer, java.lang.Boolean) values: [TestObject - 'Object Repository/demoQA/select_DOB_month', 57, ...]
+Possible solutions: selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)
+	at testing.Page_Form.enterValue(Page_Form.groovy:75)
+	... 16 more]]></system-out>
+      <system-err><![CDATA[2022-03-15 14:17:34 - [TEST_SUITE][ERROR] - demoQA_testSuite: Test Cases/demoQA FAILED.
+Reason:
+org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer, java.lang.Boolean) values: [TestObject - 'Object Repository/demoQA/select_DOB_month', 57, ...]
+Possible solutions: selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)
+	at testing.Page_Form.invokeMethod(Page_Form.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at demoQA.run(demoQA:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647328644194.run(TempTestSuite1647328644194.groovy:36)
+Caused by: groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByValue() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer, java.lang.Boolean) values: [TestObject - 'Object Repository/demoQA/select_DOB_month', 57, ...]
+Possible solutions: selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), selectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean), deselectOptionByValue(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean, com.kms.katalon.core.model.FailureHandling), selectOptionByLabel(com.kms.katalon.core.testobject.TestObject, java.lang.String, boolean)
+	at testing.Page_Form.enterValue(Page_Form.groovy:75)
+	... 16 more]]></system-err>
+   </testsuite>
+</testsuites>

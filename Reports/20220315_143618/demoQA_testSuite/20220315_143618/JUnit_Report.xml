@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="demoQA_testSuite" time="106.452" tests="3" failures="0" errors="0">
+   <testsuite name="demoQA_testSuite" tests="3" failures="0" errors="0" time="106.452" skipped="0" timestamp="2022-03-15 14:36:30" hostname="nxthoi - nxthoi.tma.com.vn" id="Test Suites/demoQA_testSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\nxthoi\\Desktop\\Project_Katalon\\demoQA\\Reports\\20220315_143618\\demoQA_testSuite\\20220315_143618"/>
+         <property name="logFiles" value="C:\\Users\\nxthoi\\Desktop\\Project_Katalon\\demoQA\\Reports\\20220315_143618\\demoQA_testSuite\\20220315_143618\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nxthoi - nxthoi.tma.com.vn"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 99.0.4844.51"/>
+         <property name="hostAddress" value="192.168.197.166"/>
+         <property name="sessionId" value="b3bd64cd684b65858f23a2bb85d8b0a1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/demoQA" time="31.957" classname="Test Cases/demoQA" status="PASSED">
+         <system-out><![CDATA[2022-03-15 14:36:31 - [TEST_CASE][PASSED] - Test Cases/demoQA: Test Cases/demoQA
+
+2022-03-15 14:36:31 - [TEST_STEP][PASSED] - testing.Page_Start.access(): testing.Page_Start.access is PASSED
+
+2022-03-15 14:36:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-15 14:36:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-15 14:36:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-15 14:36:33 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-15 14:36:42 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+2022-03-15 14:36:42 - [MESSAGE][PASSED] - testing.Page_Start.access is PASSED
+
+2022-03-15 14:36:42 - [TEST_STEP][PASSED] - testing.Page_Form.click_Form(): testing.Page_Form.click_Form is PASSED
+
+2022-03-15 14:36:43 - [MESSAGE][PASSED] - Object: 'Object Repository/demoQA/li_Form' is clicked on
+
+2022-03-15 14:36:44 - [MESSAGE][PASSED] - Object: 'Object Repository/demoQA/li_Pratice_Form' is clicked on
+
+2022-03-15 14:36:44 - [MESSAGE][PASSED] - testing.Page_Form.click_Form is PASSED
+
+2022-03-15 14:36:44 - [TEST_STEP][PASSED] - testing.Page_Form.enterValue(firstName, lastName, email, gender, mobile, year_DOB, month_DOB, subject, hobbies, upload, address, state, city): testing.Page_Form.enterValue is PASSED
+
+2022-03-15 14:36:45 - [MESSAGE][PASSED] - Text 'Champagrap' is set on object 'Object Repository/demoQA/input'
+
+2022-03-15 14:36:46 - [MESSAGE][PASSED] - Text 'Thapton' is set on object 'Object Repository/demoQA/input'
+
+2022-03-15 14:36:46 - [MESSAGE][PASSED] - Text 'thapton@gmail.com' is set on object 'Object Repository/demoQA/input'
+
+2022-03-15 14:36:47 - [MESSAGE][PASSED] - Object 'Object Repository/demoQA/label_gender' is checked
+
+2022-03-15 14:36:48 - [MESSAGE][PASSED] - Text '0868346796' is set on object 'Object Repository/demoQA/input'
+
+2022-03-15 14:36:48 - [MESSAGE][PASSED] - Object: 'Object Repository/demoQA/input' is clicked on
+
+2022-03-15 14:36:54 - [MESSAGE][PASSED] - All options with value '1999' are selected in object 'Object Repository/demoQA/select_DOB_year'  using regular expression
+
+2022-03-15 14:36:55 - [MESSAGE][PASSED] - All options with value '9' are selected in object 'Object Repository/demoQA/select_DOB_month'  using regular expression
+
+2022-03-15 14:36:55 - [MESSAGE][PASSED] - Object: 'Object Repository/demoQA/select_DOB_day' is clicked on
+
+2022-03-15 14:36:56 - [MESSAGE][PASSED] - Text 'English' is set on object 'Object Repository/demoQA/input'
+
+2022-03-15 14:36:57 - [MESSAGE][PASSED] - Object: 'Object Repository/demoQA/select_Subjects_value' is clicked on
+
+2022-03-15 14:36:57 - [MESSAGE][PASSED] - Object 'Object Repository/demoQA/label_hobbies' is checked
+
+2022-03-15 14:36:58 - [MESSAGE][PASSED] - Text 'C:\\Users\\nxthoi\\Desktop\\Project_Katalon\\demoTest\\selenium-screenshot-1.png' is set on object 'Object Repository/demoQA/input'
+
+2022-03-15 14:36:59 - [MESSAGE][PASSED] - Text '8th Cross Rd' is set on object 'Object Repository/demoQA/textArea_Address'
+
+2022-03-15 14:36:59 - [MESSAGE][PASSED] - Text 'NCR' is set on object 'Object Repository/demoQA/state_city_input'
+
+2022-03-15 14:37:00 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/demoQA/state_city_input'
+
+2022-03-15 14:37:01 - [MESSAGE][PASSED] - Text 'Delhi' is set on object 'Object Repository/demoQA/state_city_input'
+
+2022-03-15 14:37:01 - [MESSAGE][PASSED] - Keys 'TAB + ENTER + ' sent to object: 'Object Repository/demoQA/state_city_input'
+
+2022-03-15 14:37:01 - [MESSAGE][PASSED] - testing.Page_Form.enterValue is PASSED
+
+2022-03-15 14:37:01 - [TEST_STEP][PASSED] - testing.Page_End.end(): testing.Page_End.end is PASSED
+
+2022-03-15 14:37:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/demoQA/div_Modal_label' is: 'Thanks for submitting the form'
+
+2022-03-15 14:37:02 - [MESSAGE][PASSED] - Actual object 'Thanks for submitting the form' and expected object 'Thanks for submitting the form' are equal
+
+2022-03-15 14:37:02 - [MESSAGE][PASSED] - Browser is closed
+
+2022-03-15 14:37:02 - [MESSAGE][PASSED] - testing.Page_End.end is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/demoQA" time="32.492" classname="Test Cases/demoQA" status="PASSED">
+         <system-out><![CDATA[2022-03-15 14:37:03 - [TEST_CASE][PASSED] - Test Cases/demoQA: Test Cases/demoQA
+
+2022-03-15 14:37:03 - [TEST_STEP][PASSED] - testing.Page_Start.access(): testing.Page_Start.access is PASSED
+
+2022-03-15 14:37:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-15 14:37:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-15 14:37:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-15 14:37:04 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-15 14:37:15 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+2022-03-15 14:37:15 - [MESSAGE][PASSED] - testing.Page_Start.access is PASSED
+
+2022-03-15 14:37:15 - [TEST_STEP][PASSED] - testing.Page_Form.click_Form(): testing.Page_Form.click_Form is PASSED
+
+2022-03-15 14:37:16 - [MESSAGE][PASSED] - Object: 'Object Repository/demoQA/li_Form' is clicked on
+
+2022-03-15 14:37:17 - [MESSAGE][PASSED] - Object: 'Object Repository/demoQA/li_Pratice_Form' is clicked on
+
+2022-03-15 14:37:17 - [MESSAGE][PASSED] - testing.Page_Form.click_Form is PASSED
+
+2022-03-15 14:37:17 - [TEST_STEP][PASSED] - testing.Page_Form.enterValue(firstName, lastName, email, gender, mobile, year_DOB, month_DOB, subject, hobbies, upload, address, state, city): testing.Page_Form.enterValue is PASSED
+
+2022-03-15 14:37:18 - [MESSAGE][PASSED] - Text 'Naragrap' is set on object 'Object Repository/demoQA/input'
+
+2022-03-15 14:37:19 - [MESSAGE][PASSED] - Text 'Kei' is set on object 'Object Repository/demoQA/input'
+
+2022-03-15 14:37:19 - [MESSAGE][PASSED] - Text 'kei@gmail.com' is set on object 'Object Repository/demoQA/input'
+
+2022-03-15 14:37:20 - [MESSAGE][PASSED] - Object 'Object Repository/demoQA/label_gender' is checked
+
+2022-03-15 14:37:20 - [MESSAGE][PASSED] - Text '0254879652' is set on object 'Object Repository/demoQA/input'
+
+2022-03-15 14:37:21 - [MESSAGE][PASSED] - Object: 'Object Repository/demoQA/input' is clicked on
+
+2022-03-15 14:37:26 - [MESSAGE][PASSED] - All options with value '1995' are selected in object 'Object Repository/demoQA/select_DOB_year'  using regular expression
+
+2022-03-15 14:37:28 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/demoQA/select_DOB_month'  using regular expression
+
+2022-03-15 14:37:28 - [MESSAGE][PASSED] - Object: 'Object Repository/demoQA/select_DOB_day' is clicked on
+
+2022-03-15 14:37:29 - [MESSAGE][PASSED] - Text 'Math' is set on object 'Object Repository/demoQA/input'
+
+2022-03-15 14:37:29 - [MESSAGE][PASSED] - Object: 'Object Repository/demoQA/select_Subjects_value' is clicked on
+
+2022-03-15 14:37:30 - [MESSAGE][PASSED] - Object 'Object Repository/demoQA/label_hobbies' is checked
+
+2022-03-15 14:37:31 - [MESSAGE][PASSED] - Text 'C:\\Users\\nxthoi\\Desktop\\Project_Katalon\\demoTest\\selenium-screenshot-1.png' is set on object 'Object Repository/demoQA/input'
+
+2022-03-15 14:37:31 - [MESSAGE][PASSED] - Text 'Bhati' is set on object 'Object Repository/demoQA/textArea_Address'
+
+2022-03-15 14:37:32 - [MESSAGE][PASSED] - Text 'NCR' is set on object 'Object Repository/demoQA/state_city_input'
+
+2022-03-15 14:37:32 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/demoQA/state_city_input'
+
+2022-03-15 14:37:33 - [MESSAGE][PASSED] - Text 'Gurgaon' is set on object 'Object Repository/demoQA/state_city_input'
+
+2022-03-15 14:37:34 - [MESSAGE][PASSED] - Keys 'TAB + ENTER + ' sent to object: 'Object Repository/demoQA/state_city_input'
+
+2022-03-15 14:37:34 - [MESSAGE][PASSED] - testing.Page_Form.enterValue is PASSED
+
+2022-03-15 14:37:34 - [TEST_STEP][PASSED] - testing.Page_End.end(): testing.Page_End.end is PASSED
+
+2022-03-15 14:37:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/demoQA/div_Modal_label' is: 'Thanks for submitting the form'
+
+2022-03-15 14:37:34 - [MESSAGE][PASSED] - Actual object 'Thanks for submitting the form' and expected object 'Thanks for submitting the form' are equal
+
+2022-03-15 14:37:35 - [MESSAGE][PASSED] - Browser is closed
+
+2022-03-15 14:37:35 - [MESSAGE][PASSED] - testing.Page_End.end is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/demoQA" time="41.116" classname="Test Cases/demoQA" status="PASSED">
+         <system-out><![CDATA[2022-03-15 14:37:35 - [TEST_CASE][PASSED] - Test Cases/demoQA: Test Cases/demoQA
+
+2022-03-15 14:37:35 - [TEST_STEP][PASSED] - testing.Page_Start.access(): testing.Page_Start.access is PASSED
+
+2022-03-15 14:37:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-15 14:37:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-15 14:37:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-15 14:37:37 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-15 14:37:56 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+2022-03-15 14:37:56 - [MESSAGE][PASSED] - testing.Page_Start.access is PASSED
+
+2022-03-15 14:37:56 - [TEST_STEP][PASSED] - testing.Page_Form.click_Form(): testing.Page_Form.click_Form is PASSED
+
+2022-03-15 14:37:57 - [MESSAGE][PASSED] - Object: 'Object Repository/demoQA/li_Form' is clicked on
+
+2022-03-15 14:37:58 - [MESSAGE][PASSED] - Object: 'Object Repository/demoQA/li_Pratice_Form' is clicked on
+
+2022-03-15 14:37:58 - [MESSAGE][PASSED] - testing.Page_Form.click_Form is PASSED
+
+2022-03-15 14:37:58 - [TEST_STEP][PASSED] - testing.Page_Form.enterValue(firstName, lastName, email, gender, mobile, year_DOB, month_DOB, subject, hobbies, upload, address, state, city): testing.Page_Form.enterValue is PASSED
+
+2022-03-15 14:37:59 - [MESSAGE][PASSED] - Text 'Sudana' is set on object 'Object Repository/demoQA/input'
+
+2022-03-15 14:38:00 - [MESSAGE][PASSED] - Text 'Taket' is set on object 'Object Repository/demoQA/input'
+
+2022-03-15 14:38:00 - [MESSAGE][PASSED] - Text 'taket@gmail.com' is set on object 'Object Repository/demoQA/input'
+
+2022-03-15 14:38:01 - [MESSAGE][PASSED] - Object 'Object Repository/demoQA/label_gender' is checked
+
+2022-03-15 14:38:01 - [MESSAGE][PASSED] - Text '0123658965' is set on object 'Object Repository/demoQA/input'
+
+2022-03-15 14:38:02 - [MESSAGE][PASSED] - Object: 'Object Repository/demoQA/input' is clicked on
+
+2022-03-15 14:38:07 - [MESSAGE][PASSED] - All options with value '1990' are selected in object 'Object Repository/demoQA/select_DOB_year'  using regular expression
+
+2022-03-15 14:38:09 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/demoQA/select_DOB_month'  using regular expression
+
+2022-03-15 14:38:09 - [MESSAGE][PASSED] - Object: 'Object Repository/demoQA/select_DOB_day' is clicked on
+
+2022-03-15 14:38:10 - [MESSAGE][PASSED] - Text 'Chemistry' is set on object 'Object Repository/demoQA/input'
+
+2022-03-15 14:38:10 - [MESSAGE][PASSED] - Object: 'Object Repository/demoQA/select_Subjects_value' is clicked on
+
+2022-03-15 14:38:11 - [MESSAGE][PASSED] - Object 'Object Repository/demoQA/label_hobbies' is checked
+
+2022-03-15 14:38:11 - [MESSAGE][PASSED] - Object 'Object Repository/demoQA/label_hobbies' is checked
+
+2022-03-15 14:38:11 - [MESSAGE][PASSED] - Object 'Object Repository/demoQA/label_hobbies' is checked
+
+2022-03-15 14:38:12 - [MESSAGE][PASSED] - Text 'C:\\Users\\nxthoi\\Desktop\\Project_Katalon\\demoTest\\selenium-screenshot-1.png' is set on object 'Object Repository/demoQA/input'
+
+2022-03-15 14:38:13 - [MESSAGE][PASSED] - Text 'Sudan' is set on object 'Object Repository/demoQA/textArea_Address'
+
+2022-03-15 14:38:13 - [MESSAGE][PASSED] - Text 'Haryana' is set on object 'Object Repository/demoQA/state_city_input'
+
+2022-03-15 14:38:14 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/demoQA/state_city_input'
+
+2022-03-15 14:38:15 - [MESSAGE][PASSED] - Text 'Karnal' is set on object 'Object Repository/demoQA/state_city_input'
+
+2022-03-15 14:38:15 - [MESSAGE][PASSED] - Keys 'TAB + ENTER + ' sent to object: 'Object Repository/demoQA/state_city_input'
+
+2022-03-15 14:38:15 - [MESSAGE][PASSED] - testing.Page_Form.enterValue is PASSED
+
+2022-03-15 14:38:15 - [TEST_STEP][PASSED] - testing.Page_End.end(): testing.Page_End.end is PASSED
+
+2022-03-15 14:38:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/demoQA/div_Modal_label' is: 'Thanks for submitting the form'
+
+2022-03-15 14:38:16 - [MESSAGE][PASSED] - Actual object 'Thanks for submitting the form' and expected object 'Thanks for submitting the form' are equal
+
+2022-03-15 14:38:17 - [MESSAGE][PASSED] - Browser is closed
+
+2022-03-15 14:38:17 - [MESSAGE][PASSED] - testing.Page_End.end is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-15 14:36:30 - [TEST_SUITE][PASSED] - demoQA_testSuite: Test Cases/demoQA]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

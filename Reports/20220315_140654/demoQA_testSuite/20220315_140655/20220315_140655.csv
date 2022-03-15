@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+demoQA_testSuite,Chrome 99.0.4844.51,,,2022-03-15 14:07:05,2022-03-15 14:07:52,46.377s,ERROR
+,,,,,,,
+Test Cases/demoQA,Chrome 99.0.4844.51,,,2022-03-15 14:07:06,2022-03-15 14:07:18,12.256s,ERROR
+testing.Page_Start.access(),Chrome 99.0.4844.51,,,2022-03-15 14:07:06,2022-03-15 14:07:15,8.823s,PASSED
+testing.Page_Form.click_Form(),Chrome 99.0.4844.51,,,2022-03-15 14:07:15,2022-03-15 14:07:17,2.030s,PASSED
+"testing.Page_Form.enterValue(firstName, lastName, email, gender, mobile, year_DOB, month_DOB, subject, hobbies, upload, address, state, city)",Chrome 99.0.4844.51,,,2022-03-15 14:07:17,2022-03-15 14:07:18,0.946s,ERROR
+,,,,,,,
+Test Cases/demoQA,Chrome 99.0.4844.51,,,2022-03-15 14:07:18,2022-03-15 14:07:31,12.591s,ERROR
+testing.Page_Start.access(),Chrome 99.0.4844.51,,,2022-03-15 14:07:18,2022-03-15 14:07:28,9.737s,PASSED
+testing.Page_Form.click_Form(),Chrome 99.0.4844.51,,,2022-03-15 14:07:28,2022-03-15 14:07:30,2.069s,PASSED
+"testing.Page_Form.enterValue(firstName, lastName, email, gender, mobile, year_DOB, month_DOB, subject, hobbies, upload, address, state, city)",Chrome 99.0.4844.51,,,2022-03-15 14:07:30,2022-03-15 14:07:31,0.770s,ERROR
+,,,,,,,
+Test Cases/demoQA,Chrome 99.0.4844.51,,,2022-03-15 14:07:31,2022-03-15 14:07:52,20.721s,ERROR
+testing.Page_Start.access(),Chrome 99.0.4844.51,,,2022-03-15 14:07:31,2022-03-15 14:07:50,18.376s,PASSED
+testing.Page_Form.click_Form(),Chrome 99.0.4844.51,,,2022-03-15 14:07:50,2022-03-15 14:07:51,1.580s,PASSED
+"testing.Page_Form.enterValue(firstName, lastName, email, gender, mobile, year_DOB, month_DOB, subject, hobbies, upload, address, state, city)",Chrome 99.0.4844.51,,,2022-03-15 14:07:51,2022-03-15 14:07:52,0.749s,ERROR

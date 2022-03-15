@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="demoQA_testSuite" time="46.377" tests="3" failures="0" errors="3">
+   <testsuite name="demoQA_testSuite" tests="3" failures="0" errors="3" time="46.377" skipped="0" timestamp="2022-03-15 14:07:05" hostname="nxthoi - nxthoi.tma.com.vn" id="Test Suites/demoQA_testSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\nxthoi\\Desktop\\Project_Katalon\\demoQA\\Reports\\20220315_140654\\demoQA_testSuite\\20220315_140655"/>
+         <property name="logFiles" value="C:\\Users\\nxthoi\\Desktop\\Project_Katalon\\demoQA\\Reports\\20220315_140654\\demoQA_testSuite\\20220315_140655\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nxthoi - nxthoi.tma.com.vn"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 99.0.4844.51"/>
+         <property name="hostAddress" value="192.168.197.166"/>
+         <property name="sessionId" value="9c399d79d4a79c15cd448f6f3deea938"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/demoQA" time="12.256" classname="Test Cases/demoQA" status="ERROR">
+         <error type="ERROR" message="Test Cases/demoQA FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: testing.Page_Form.enterValue() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String) values: [&quot;Champagrap&quot;, Thapton, thapton@gmail.com, Male, 0868346796, ...]
+Possible solutions: enterValue(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Integer, java.lang.Integer, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)
+"/>
+         <system-out><![CDATA[2022-03-15 14:07:06 - [TEST_CASE][ERROR] - Test Cases/demoQA: Test Cases/demoQA FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: testing.Page_Form.enterValue() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String) values: ["Champagrap", Thapton, thapton@gmail.com, Male, 0868346796, ...]
+Possible solutions: enterValue(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Integer, java.lang.Integer, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)
+
+
+2022-03-15 14:07:06 - [TEST_STEP][PASSED] - testing.Page_Start.access(): testing.Page_Start.access is PASSED
+
+2022-03-15 14:07:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-15 14:07:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-15 14:07:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-15 14:07:09 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-15 14:07:15 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+2022-03-15 14:07:15 - [MESSAGE][PASSED] - testing.Page_Start.access is PASSED
+
+2022-03-15 14:07:15 - [TEST_STEP][PASSED] - testing.Page_Form.click_Form(): testing.Page_Form.click_Form is PASSED
+
+2022-03-15 14:07:17 - [MESSAGE][PASSED] - Object: 'Object Repository/demoQA/li_Form' is clicked on
+
+2022-03-15 14:07:17 - [MESSAGE][PASSED] - Object: 'Object Repository/demoQA/li_Pratice_Form' is clicked on
+
+2022-03-15 14:07:17 - [MESSAGE][PASSED] - testing.Page_Form.click_Form is PASSED
+
+2022-03-15 14:07:17 - [TEST_STEP][ERROR] - testing.Page_Form.enterValue(firstName, lastName, email, gender, mobile, year_DOB, month_DOB, subject, hobbies, upload, address, state, city): Test Cases/demoQA FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: testing.Page_Form.enterValue() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String) values: ["Champagrap", Thapton, thapton@gmail.com, Male, 0868346796, ...]
+Possible solutions: enterValue(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Integer, java.lang.Integer, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at demoQA.run(demoQA:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647328015940.run(TempTestSuite1647328015940.groovy:36)
+Caused by: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: testing.Page_Form.enterValue() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String) values: ["Champagrap", Thapton, thapton@gmail.com, Male, 0868346796, ...]
+Possible solutions: enterValue(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Integer, java.lang.Integer, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)
+
+
+2022-03-15 14:07:18 - [MESSAGE][ERROR] - No signature of method: testing.Page_Form.enterValue() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String) values: ["Champagrap", Thapton, thapton@gmail.com, Male, 0868346796, ...]
+Possible solutions: enterValue(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Integer, java.lang.Integer, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)
+
+2022-03-15 14:07:18 - [MESSAGE][ERROR] - Test Cases/demoQA FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: testing.Page_Form.enterValue() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String) values: ["Champagrap", Thapton, thapton@gmail.com, Male, 0868346796, ...]
+Possible solutions: enterValue(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Integer, java.lang.Integer, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at demoQA.run(demoQA:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647328015940.run(TempTestSuite1647328015940.groovy:36)
+Caused by: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: testing.Page_Form.enterValue() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String) values: ["Champagrap", Thapton, thapton@gmail.com, Male, 0868346796, ...]
+Possible solutions: enterValue(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Integer, java.lang.Integer, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)]]></system-out>
+         <system-err><![CDATA[2022-03-15 14:07:06 - [TEST_CASE][ERROR] - Test Cases/demoQA: Test Cases/demoQA FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: testing.Page_Form.enterValue() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String) values: ["Champagrap", Thapton, thapton@gmail.com, Male, 0868346796, ...]
+Possible solutions: enterValue(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Integer, java.lang.Integer, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/demoQA" time="12.591" classname="Test Cases/demoQA" status="ERROR">
+         <error type="ERROR" message="Test Cases/demoQA FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: testing.Page_Form.enterValue() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String) values: [Naragrap, Kei, kei@gmail.com, Female, 0254879652, 1995, 11, ...]
+Possible solutions: enterValue(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Integer, java.lang.Integer, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)
+"/>
+         <system-out><![CDATA[2022-03-15 14:07:18 - [TEST_CASE][ERROR] - Test Cases/demoQA: Test Cases/demoQA FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: testing.Page_Form.enterValue() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String) values: [Naragrap, Kei, kei@gmail.com, Female, 0254879652, 1995, 11, ...]
+Possible solutions: enterValue(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Integer, java.lang.Integer, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)
+
+
+2022-03-15 14:07:18 - [TEST_STEP][PASSED] - testing.Page_Start.access(): testing.Page_Start.access is PASSED
+
+2022-03-15 14:07:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-03-15 14:07:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-15 14:07:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-15 14:07:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-15 14:07:21 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-15 14:07:28 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+2022-03-15 14:07:28 - [MESSAGE][PASSED] - testing.Page_Start.access is PASSED
+
+2022-03-15 14:07:28 - [TEST_STEP][PASSED] - testing.Page_Form.click_Form(): testing.Page_Form.click_Form is PASSED
+
+2022-03-15 14:07:30 - [MESSAGE][PASSED] - Object: 'Object Repository/demoQA/li_Form' is clicked on
+
+2022-03-15 14:07:30 - [MESSAGE][PASSED] - Object: 'Object Repository/demoQA/li_Pratice_Form' is clicked on
+
+2022-03-15 14:07:30 - [MESSAGE][PASSED] - testing.Page_Form.click_Form is PASSED
+
+2022-03-15 14:07:30 - [TEST_STEP][ERROR] - testing.Page_Form.enterValue(firstName, lastName, email, gender, mobile, year_DOB, month_DOB, subject, hobbies, upload, address, state, city): Test Cases/demoQA FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: testing.Page_Form.enterValue() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String) values: [Naragrap, Kei, kei@gmail.com, Female, 0254879652, 1995, 11, ...]
+Possible solutions: enterValue(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Integer, java.lang.Integer, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at demoQA.run(demoQA:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647328015940.run(TempTestSuite1647328015940.groovy:36)
+Caused by: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: testing.Page_Form.enterValue() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String) values: [Naragrap, Kei, kei@gmail.com, Female, 0254879652, 1995, 11, ...]
+Possible solutions: enterValue(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Integer, java.lang.Integer, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)
+
+
+2022-03-15 14:07:31 - [MESSAGE][ERROR] - No signature of method: testing.Page_Form.enterValue() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String) values: [Naragrap, Kei, kei@gmail.com, Female, 0254879652, 1995, 11, ...]
+Possible solutions: enterValue(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Integer, java.lang.Integer, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)
+
+2022-03-15 14:07:31 - [MESSAGE][ERROR] - Test Cases/demoQA FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: testing.Page_Form.enterValue() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String) values: [Naragrap, Kei, kei@gmail.com, Female, 0254879652, 1995, 11, ...]
+Possible solutions: enterValue(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Integer, java.lang.Integer, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at demoQA.run(demoQA:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647328015940.run(TempTestSuite1647328015940.groovy:36)
+Caused by: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: testing.Page_Form.enterValue() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String) values: [Naragrap, Kei, kei@gmail.com, Female, 0254879652, 1995, 11, ...]
+Possible solutions: enterValue(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Integer, java.lang.Integer, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)]]></system-out>
+         <system-err><![CDATA[2022-03-15 14:07:18 - [TEST_CASE][ERROR] - Test Cases/demoQA: Test Cases/demoQA FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: testing.Page_Form.enterValue() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String) values: [Naragrap, Kei, kei@gmail.com, Female, 0254879652, 1995, 11, ...]
+Possible solutions: enterValue(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Integer, java.lang.Integer, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/demoQA" time="20.721" classname="Test Cases/demoQA" status="ERROR">
+         <error type="ERROR" message="Test Cases/demoQA FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: testing.Page_Form.enterValue() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String) values: [Sudana, Taket, taket@gmail.com, Male, 0123658965, 1990, 1, Chemistry, ...]
+Possible solutions: enterValue(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Integer, java.lang.Integer, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)
+"/>
+         <system-out><![CDATA[2022-03-15 14:07:31 - [TEST_CASE][ERROR] - Test Cases/demoQA: Test Cases/demoQA FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: testing.Page_Form.enterValue() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String) values: [Sudana, Taket, taket@gmail.com, Male, 0123658965, 1990, 1, Chemistry, ...]
+Possible solutions: enterValue(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Integer, java.lang.Integer, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)
+
+
+2022-03-15 14:07:31 - [TEST_STEP][PASSED] - testing.Page_Start.access(): testing.Page_Start.access is PASSED
+
+2022-03-15 14:07:31 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-03-15 14:07:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-15 14:07:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-03-15 14:07:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-15 14:07:34 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-15 14:07:50 - [MESSAGE][PASSED] - Navigate to 'https://demoqa.com/' successfully
+
+2022-03-15 14:07:50 - [MESSAGE][PASSED] - testing.Page_Start.access is PASSED
+
+2022-03-15 14:07:50 - [TEST_STEP][PASSED] - testing.Page_Form.click_Form(): testing.Page_Form.click_Form is PASSED
+
+2022-03-15 14:07:51 - [MESSAGE][PASSED] - Object: 'Object Repository/demoQA/li_Form' is clicked on
+
+2022-03-15 14:07:51 - [MESSAGE][PASSED] - Object: 'Object Repository/demoQA/li_Pratice_Form' is clicked on
+
+2022-03-15 14:07:51 - [MESSAGE][PASSED] - testing.Page_Form.click_Form is PASSED
+
+2022-03-15 14:07:51 - [TEST_STEP][ERROR] - testing.Page_Form.enterValue(firstName, lastName, email, gender, mobile, year_DOB, month_DOB, subject, hobbies, upload, address, state, city): Test Cases/demoQA FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: testing.Page_Form.enterValue() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String) values: [Sudana, Taket, taket@gmail.com, Male, 0123658965, 1990, 1, Chemistry, ...]
+Possible solutions: enterValue(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Integer, java.lang.Integer, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at demoQA.run(demoQA:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647328015940.run(TempTestSuite1647328015940.groovy:36)
+Caused by: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: testing.Page_Form.enterValue() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String) values: [Sudana, Taket, taket@gmail.com, Male, 0123658965, 1990, 1, Chemistry, ...]
+Possible solutions: enterValue(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Integer, java.lang.Integer, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)
+
+
+2022-03-15 14:07:52 - [MESSAGE][ERROR] - No signature of method: testing.Page_Form.enterValue() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String) values: [Sudana, Taket, taket@gmail.com, Male, 0123658965, 1990, 1, Chemistry, ...]
+Possible solutions: enterValue(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Integer, java.lang.Integer, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)
+
+2022-03-15 14:07:52 - [MESSAGE][ERROR] - Test Cases/demoQA FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: testing.Page_Form.enterValue() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String) values: [Sudana, Taket, taket@gmail.com, Male, 0123658965, 1990, 1, Chemistry, ...]
+Possible solutions: enterValue(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Integer, java.lang.Integer, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:96)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:68)
+	at demoQA.run(demoQA:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647328015940.run(TempTestSuite1647328015940.groovy:36)
+Caused by: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: testing.Page_Form.enterValue() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String) values: [Sudana, Taket, taket@gmail.com, Male, 0123658965, 1990, 1, Chemistry, ...]
+Possible solutions: enterValue(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Integer, java.lang.Integer, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)]]></system-out>
+         <system-err><![CDATA[2022-03-15 14:07:31 - [TEST_CASE][ERROR] - Test Cases/demoQA: Test Cases/demoQA FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: testing.Page_Form.enterValue() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String) values: [Sudana, Taket, taket@gmail.com, Male, 0123658965, 1990, 1, Chemistry, ...]
+Possible solutions: enterValue(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Integer, java.lang.Integer, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-15 14:07:05 - [TEST_SUITE][ERROR] - demoQA_testSuite: Test Cases/demoQA FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: testing.Page_Form.enterValue() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String) values: ["Champagrap", Thapton, thapton@gmail.com, Male, 0868346796, ...]
+Possible solutions: enterValue(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Integer, java.lang.Integer, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)]]></system-out>
+      <system-err><![CDATA[2022-03-15 14:07:05 - [TEST_SUITE][ERROR] - demoQA_testSuite: Test Cases/demoQA FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: testing.Page_Form.enterValue() is applicable for argument types: (java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String) values: ["Champagrap", Thapton, thapton@gmail.com, Male, 0868346796, ...]
+Possible solutions: enterValue(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Integer, java.lang.Integer, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)]]></system-err>
+   </testsuite>
+</testsuites>

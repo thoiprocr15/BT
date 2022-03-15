@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+demoQA_testSuite,Chrome 99.0.4844.51,,,2022-03-15 14:36:30,2022-03-15 14:38:17,1m - 46.452s,PASSED
+,,,,,,,
+Test Cases/demoQA,Chrome 99.0.4844.51,,,2022-03-15 14:36:31,2022-03-15 14:37:02,31.957s,PASSED
+testing.Page_Start.access(),Chrome 99.0.4844.51,,,2022-03-15 14:36:31,2022-03-15 14:36:42,10.728s,PASSED
+testing.Page_Form.click_Form(),Chrome 99.0.4844.51,,,2022-03-15 14:36:42,2022-03-15 14:36:44,2.085s,PASSED
+"testing.Page_Form.enterValue(firstName, lastName, email, gender, mobile, year_DOB, month_DOB, subject, hobbies, upload, address, state, city)",Chrome 99.0.4844.51,,,2022-03-15 14:36:44,2022-03-15 14:37:01,17.354s,PASSED
+testing.Page_End.end(),Chrome 99.0.4844.51,,,2022-03-15 14:37:01,2022-03-15 14:37:02,1.361s,PASSED
+,,,,,,,
+Test Cases/demoQA,Chrome 99.0.4844.51,,,2022-03-15 14:37:03,2022-03-15 14:37:35,32.492s,PASSED
+testing.Page_Start.access(),Chrome 99.0.4844.51,,,2022-03-15 14:37:03,2022-03-15 14:37:15,12.395s,PASSED
+testing.Page_Form.click_Form(),Chrome 99.0.4844.51,,,2022-03-15 14:37:15,2022-03-15 14:37:17,1.618s,PASSED
+"testing.Page_Form.enterValue(firstName, lastName, email, gender, mobile, year_DOB, month_DOB, subject, hobbies, upload, address, state, city)",Chrome 99.0.4844.51,,,2022-03-15 14:37:17,2022-03-15 14:37:34,17.171s,PASSED
+testing.Page_End.end(),Chrome 99.0.4844.51,,,2022-03-15 14:37:34,2022-03-15 14:37:35,1.301s,PASSED
+,,,,,,,
+Test Cases/demoQA,Chrome 99.0.4844.51,,,2022-03-15 14:37:35,2022-03-15 14:38:17,41.116s,PASSED
+testing.Page_Start.access(),Chrome 99.0.4844.51,,,2022-03-15 14:37:35,2022-03-15 14:37:56,20.669s,PASSED
+testing.Page_Form.click_Form(),Chrome 99.0.4844.51,,,2022-03-15 14:37:56,2022-03-15 14:37:58,1.583s,PASSED
+"testing.Page_Form.enterValue(firstName, lastName, email, gender, mobile, year_DOB, month_DOB, subject, hobbies, upload, address, state, city)",Chrome 99.0.4844.51,,,2022-03-15 14:37:58,2022-03-15 14:38:15,17.517s,PASSED
+testing.Page_End.end(),Chrome 99.0.4844.51,,,2022-03-15 14:38:15,2022-03-15 14:38:17,1.339s,PASSED

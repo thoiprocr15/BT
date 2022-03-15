@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label</name>
+   <name>label_hobbies</name>
    <tag></tag>
-   <elementGuidId>6a740ad0-52b8-4b39-82f7-a462db515f5d</elementGuidId>
+   <elementGuidId>48afdf61-6be6-4554-af1f-1f3b952ade38</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[contains(text(), '${text_label}')]//parent::div//following-sibling::div//input[@value='${text_value}']//following-sibling::label</value>
+         <value>//*[contains(text(), 'Hobbies')]//parent::div//following-sibling::div//*[@value='${value}']//following-sibling::label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

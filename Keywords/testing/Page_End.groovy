@@ -20,12 +20,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
 
-public class end {
+public class Page_End {
+	private TestObject modal_lb = findTestObject('demoQA/div_Modal_label')
 
 	@Keyword
-	def closure() {
-		WebUI.takeScreenshot('Screenshot\\demo.png')
+	def end() {
+		'Get text from Modal Label\r\n'
+		String actual_result = WebUI.getText(modal_lb)
 
+		'Compare Actual result and Expected result\r\n'
+		WebUI.verifyEqual(actual_result, 'Thanks for submitting the form')
+
+		'Close Browser\r\n'
 		WebUI.closeBrowser()
 	}
 }
