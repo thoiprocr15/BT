@@ -68,7 +68,7 @@ public class Page_Form {
 		'Fill in Mobile field'
 		WebUI.setText(mobile_inp, mobile_value)
 
-		'Handle DOB fiels'
+		'Handle DOB fields'
 		WebUI.click(DOB_inp)
 		WebUI.selectOptionByValue(year_select, year_value, true)
 		if(month_value.equals('January'))
